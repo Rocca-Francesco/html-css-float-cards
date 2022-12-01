@@ -9,7 +9,7 @@
 /* Utils */
 
 .container {
-    max-width: 1000px;
+    max-width: 900px;
     margin: 0 auto;
 }
 
@@ -19,6 +19,9 @@
     display: table;
 }
 
+body {
+    font-family: 'Fredoka', sans-serif;
+}
 /* header */
 
 h1 {
@@ -44,14 +47,32 @@ img {
 }
 
 .row {
-    margin: 0 20px;
+    margin: 0 -20px;
 }
 
 .column {
-    width: 300px;
+    width: calc(100% / 3);
     float: left;
     text-align: left;
     background-color: #0f0e17;
     color: white;
-    margin: 20px 10px;
+    padding: 20px 10px;
 }
+
+h2,
+.column>p,
+a {
+    
+    line-height: 30px;
+}
+
+h2 {
+    font-size: 16px;
+}
+
+a {
+    text-decoration: none;
+    color: #39a4d1;
+    font-size: 15px;
+}
+
