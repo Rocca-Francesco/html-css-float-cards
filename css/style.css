@@ -9,7 +9,7 @@
 /* Utils */
 
 .container {
-    width: 800px;
+    max-width: 1000px;
     margin: 0 auto;
 }
 
@@ -27,6 +27,31 @@ h1 {
     color: #e4306e;
 }
 
-p {
+/* main */
+
+section p:first-child {
     text-align: center;
+    margin: 30px;
+}
+
+/* floating cards */
+
+img {
+    max-width: 100%;
+    width: 100px;
+    float: left;
+    margin: 0px 15px 0px 0px;
+}
+
+.row {
+    margin: 0 20px;
+}
+
+.column {
+    width: 300px;
+    float: left;
+    text-align: left;
+    background-color: #0f0e17;
+    color: white;
+    margin: 20px 10px;
 }
