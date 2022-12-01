@@ -1,0 +1,32 @@
+/* CSS Reset */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Utils */
+
+.container {
+    width: 800px;
+    margin: 0 auto;
+}
+
+.clearfix::after {
+    content: '';
+    clear: both;
+    display: table;
+}
+
+/* header */
+
+h1 {
+    text-align: center;
+    margin: 30px;
+    color: #e4306e;
+}
+
+p {
+    text-align: center;
+}
