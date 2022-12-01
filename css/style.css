@@ -32,9 +32,9 @@ h1 {
 
 /* main */
 
-section p:first-child {
+div p:first-child {
     text-align: center;
-    margin: 30px;
+    margin: 30px 0;
 }
 
 /* floating cards */
@@ -47,7 +47,7 @@ img {
 }
 
 .row {
-    margin: 0 -20px;
+    margin: 0 -10px;
 }
 
 .column {
@@ -56,7 +56,11 @@ img {
     text-align: left;
     background-color: #0f0e17;
     color: white;
-    padding: 20px 10px;
+    margin: 20px 10px;
+}
+
+.column:nth-of-type(even) {
+    margin: 20px 0;
 }
 
 h2,
