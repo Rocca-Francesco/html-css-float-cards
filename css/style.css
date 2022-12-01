@@ -9,7 +9,7 @@
 /* Utils */
 
 .container {
-    max-width: 900px;
+    max-width:1200px;
     margin: 0 auto;
 }
 
@@ -46,12 +46,10 @@ img {
     margin: 0px 15px 0px 0px;
 }
 
-.row {
-    margin: 0 -10px;
-}
+
 
 .column {
-    width: calc(100% / 3);
+    width: calc((100% / 3) - 20px);
     float: left;
     text-align: left;
     background-color: #0f0e17;
@@ -59,9 +57,6 @@ img {
     margin: 20px 10px;
 }
 
-.column:nth-of-type(even) {
-    margin: 20px 0;
-}
 
 h2,
 .column>p,
